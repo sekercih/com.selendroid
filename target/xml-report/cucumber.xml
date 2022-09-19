@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="62.785">
+    <testcase classname="Selendroid apk test senaryosu" name="Kullanici selendroid mobil application da kayit olabilmeli" time="62.021">
+        <failure message="username farklı expected:&lt;[UserFerhat]&gt; but was:&lt;[ferhat123]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Kullanici selendroid mobil applikasyonu uyari yazisini kabul eder.....passed
+And Kullanici start user registration butonunu tiklar.......................passed
+And Kullanici username olarak "ferhat123" girer.............................passed
+And Kullanici email olarak "ferhat@hotmail.com" girer.......................passed
+And Kullanici password plarak "12345" girer.................................passed
+And Kullanici name olarak "ferhat" girer....................................passed
+And Kullanici programming language olarak "Java" girer......................passed
+And Kullanici accept adds butonu secer ve register butonuna basar...........passed
+Then Kullanici girdigi bilgilerin dogru oldugunu teyit eder.................failed
+Then Kullanici register user butonuna basar.................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: username farklı expected:<[UserFerhat]> but was:<[ferhat123]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepdefinitions.TC001RegistirationStepdefinition.kullaniciGirdigiBilgilerinDogruOldugunuTeyitEder(TC001RegistirationStepdefinition.java:88)
+	at ✽.Kullanici girdigi bilgilerin dogru oldugunu teyit eder(file:///C:/Users/Mehmet/Desktop/selendroidAppTest/src/test/resources/features/TC001_RegisterUserTest.feature:13)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

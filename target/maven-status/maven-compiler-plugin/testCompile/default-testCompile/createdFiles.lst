@@ -1,0 +1,10 @@
+pages\BasePage.class
+stepdefinitions\TC002PopupStepdefinition.class
+runners\Runner.class
+utilities\Driver.class
+utilities\ConfigurationReader.class
+stepdefinitions\TC003SayHelloTestStepDefinition.class
+utilities\AndroidReusableMethods.class
+utilities\ExcelUtil.class
+pages\SelendroidPage.class
+stepdefinitions\TC001RegistirationStepdefinition.class
